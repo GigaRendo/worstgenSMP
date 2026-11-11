@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "worstgen_items",
+	"version": "${version}",
+	"name": "WorstGen Items",
+	"description": "Server-side /items command: click-to-take GUI for the WorstGenR resource pack items. Clients do not need this mod.",
+	"authors": ["Kazu"],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dev.moonvale.worstgenitems.WorstGenItems"]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,2960 @@
+[
+  {
+    "id": "biblical_angel:axe",
+    "category": "Biblical Angel",
+    "name": "Axe",
+    "color": null,
+    "base": "minecraft:netherite_axe",
+    "model": "biblical_angel:axe",
+    "equip": null
+  },
+  {
+    "id": "biblical_angel:boots",
+    "category": "Biblical Angel",
+    "name": "Boots",
+    "color": null,
+    "base": "minecraft:netherite_boots",
+    "model": "biblical_angel:boots",
+    "equip": {
+      "slot": "feet",
+      "asset": "biblical_angel:biblical_angelarmor"
+    }
+  },
+  {
+    "id": "biblical_angel:bow",
+    "category": "Biblical Angel",
+    "name": "Bow",
+    "color": null,
+    "base": "minecraft:bow",
+    "model": "biblical_angel:bow",
+    "equip": null
+  },
+  {
+    "id": "biblical_angel:chest",
+    "category": "Biblical Angel",
+    "name": "Chest",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "biblical_angel:chest",
+    "equip": null
+  },
+  {
+    "id": "biblical_angel:chestplate",
+    "category": "Biblical Angel",
+    "name": "Chestplate",
+    "color": null,
+    "base": "minecraft:netherite_chestplate",
+    "model": "biblical_angel:chestplate",
+    "equip": {
+      "slot": "chest",
+      "asset": "biblical_angel:biblical_angelarmor"
+    }
+  },
+  {
+    "id": "biblical_angel:crossbow",
+    "category": "Biblical Angel",
+    "name": "Crossbow",
+    "color": null,
+    "base": "minecraft:crossbow",
+    "model": "biblical_angel:crossbow",
+    "equip": null
+  },
+  {
+    "id": "biblical_angel:dagger",
+    "category": "Biblical Angel",
+    "name": "Dagger",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "biblical_angel:dagger",
+    "equip": null
+  },
+  {
+    "id": "biblical_angel:fishing_rod",
+    "category": "Biblical Angel",
+    "name": "Fishing Rod",
+    "color": null,
+    "base": "minecraft:fishing_rod",
+    "model": "biblical_angel:fishing_rod",
+    "equip": null
+  },
+  {
+    "id": "biblical_angel:hammer",
+    "category": "Biblical Angel",
+    "name": "Hammer",
+    "color": null,
+    "base": "minecraft:mace",
+    "model": "biblical_angel:hammer",
+    "equip": null
+  },
+  {
+    "id": "biblical_angel:hat",
+    "category": "Biblical Angel",
+    "name": "Hat",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "biblical_angel:hat",
+    "equip": {
+      "slot": "head",
+      "asset": null
+    }
+  },
+  {
+    "id": "biblical_angel:helmet",
+    "category": "Biblical Angel",
+    "name": "Helmet",
+    "color": null,
+    "base": "minecraft:netherite_helmet",
+    "model": "biblical_angel:helmet",
+    "equip": {
+      "slot": "head",
+      "asset": "biblical_angel:biblical_angelarmor"
+    }
+  },
+  {
+    "id": "biblical_angel:hoe",
+    "category": "Biblical Angel",
+    "name": "Hoe",
+    "color": null,
+    "base": "minecraft:netherite_hoe",
+    "model": "biblical_angel:hoe",
+    "equip": null
+  },
+  {
+    "id": "biblical_angel:key",
+    "category": "Biblical Angel",
+    "name": "Key",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "biblical_angel:key",
+    "equip": null
+  },
+  {
+    "id": "biblical_angel:leggings",
+    "category": "Biblical Angel",
+    "name": "Leggings",
+    "color": null,
+    "base": "minecraft:netherite_leggings",
+    "model": "biblical_angel:leggings",
+    "equip": {
+      "slot": "legs",
+      "asset": "biblical_angel:biblical_angelarmor"
+    }
+  },
+  {
+    "id": "biblical_angel:pickaxe",
+    "category": "Biblical Angel",
+    "name": "Pickaxe",
+    "color": null,
+    "base": "minecraft:netherite_pickaxe",
+    "model": "biblical_angel:pickaxe",
+    "equip": null
+  },
+  {
+    "id": "biblical_angel:rapier_sword",
+    "category": "Biblical Angel",
+    "name": "Rapier Sword",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "biblical_angel:rapier_sword",
+    "equip": null
+  },
+  {
+    "id": "biblical_angel:scythe",
+    "category": "Biblical Angel",
+    "name": "Scythe",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "biblical_angel:scythe",
+    "equip": null
+  },
+  {
+    "id": "biblical_angel:shield",
+    "category": "Biblical Angel",
+    "name": "Shield",
+    "color": null,
+    "base": "minecraft:shield",
+    "model": "biblical_angel:shield",
+    "equip": null
+  },
+  {
+    "id": "biblical_angel:shovel",
+    "category": "Biblical Angel",
+    "name": "Shovel",
+    "color": null,
+    "base": "minecraft:netherite_shovel",
+    "model": "biblical_angel:shovel",
+    "equip": null
+  },
+  {
+    "id": "biblical_angel:spear",
+    "category": "Biblical Angel",
+    "name": "Spear",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "biblical_angel:spear",
+    "equip": null
+  },
+  {
+    "id": "biblical_angel:staff",
+    "category": "Biblical Angel",
+    "name": "Staff",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "biblical_angel:staff",
+    "equip": null
+  },
+  {
+    "id": "biblical_angel:sword",
+    "category": "Biblical Angel",
+    "name": "Sword",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "biblical_angel:sword",
+    "equip": null
+  },
+  {
+    "id": "biblical_angel:trident",
+    "category": "Biblical Angel",
+    "name": "Trident",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "biblical_angel:trident",
+    "equip": null
+  },
+  {
+    "id": "biblical_angel:wing",
+    "category": "Biblical Angel",
+    "name": "Wing",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "biblical_angel:wing",
+    "equip": null
+  },
+  {
+    "id": "biblical_angel:wing_1",
+    "category": "Biblical Angel",
+    "name": "Wing 1",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "biblical_angel:wing_1",
+    "equip": null
+  },
+  {
+    "id": "moonveil_fairy_set:axe",
+    "category": "Moonveil Fairy Set",
+    "name": "Axe",
+    "color": null,
+    "base": "minecraft:netherite_axe",
+    "model": "moonveil_fairy_set:axe",
+    "equip": null
+  },
+  {
+    "id": "moonveil_fairy_set:boots",
+    "category": "Moonveil Fairy Set",
+    "name": "Boots",
+    "color": null,
+    "base": "minecraft:netherite_boots",
+    "model": "moonveil_fairy_set:boots",
+    "equip": {
+      "slot": "feet",
+      "asset": "moonveil_fairy_set:moonveil_fairy_setarmor"
+    }
+  },
+  {
+    "id": "moonveil_fairy_set:bow",
+    "category": "Moonveil Fairy Set",
+    "name": "Bow",
+    "color": null,
+    "base": "minecraft:bow",
+    "model": "moonveil_fairy_set:bow",
+    "equip": null
+  },
+  {
+    "id": "moonveil_fairy_set:chest",
+    "category": "Moonveil Fairy Set",
+    "name": "Chest",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "moonveil_fairy_set:chest",
+    "equip": null
+  },
+  {
+    "id": "moonveil_fairy_set:chestplate",
+    "category": "Moonveil Fairy Set",
+    "name": "Chestplate",
+    "color": null,
+    "base": "minecraft:netherite_chestplate",
+    "model": "moonveil_fairy_set:chestplate",
+    "equip": {
+      "slot": "chest",
+      "asset": "moonveil_fairy_set:moonveil_fairy_setarmor"
+    }
+  },
+  {
+    "id": "moonveil_fairy_set:crossbow",
+    "category": "Moonveil Fairy Set",
+    "name": "Crossbow",
+    "color": null,
+    "base": "minecraft:crossbow",
+    "model": "moonveil_fairy_set:crossbow",
+    "equip": null
+  },
+  {
+    "id": "moonveil_fairy_set:dagger",
+    "category": "Moonveil Fairy Set",
+    "name": "Dagger",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "moonveil_fairy_set:dagger",
+    "equip": null
+  },
+  {
+    "id": "moonveil_fairy_set:fishing_rod",
+    "category": "Moonveil Fairy Set",
+    "name": "Fishing Rod",
+    "color": null,
+    "base": "minecraft:fishing_rod",
+    "model": "moonveil_fairy_set:fishing_rod",
+    "equip": null
+  },
+  {
+    "id": "moonveil_fairy_set:hammer",
+    "category": "Moonveil Fairy Set",
+    "name": "Hammer",
+    "color": null,
+    "base": "minecraft:mace",
+    "model": "moonveil_fairy_set:hammer",
+    "equip": null
+  },
+  {
+    "id": "moonveil_fairy_set:hat",
+    "category": "Moonveil Fairy Set",
+    "name": "Hat",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "moonveil_fairy_set:hat",
+    "equip": {
+      "slot": "head",
+      "asset": null
+    }
+  },
+  {
+    "id": "moonveil_fairy_set:helmet",
+    "category": "Moonveil Fairy Set",
+    "name": "Helmet",
+    "color": null,
+    "base": "minecraft:netherite_helmet",
+    "model": "moonveil_fairy_set:helmet",
+    "equip": {
+      "slot": "head",
+      "asset": "moonveil_fairy_set:moonveil_fairy_setarmor"
+    }
+  },
+  {
+    "id": "moonveil_fairy_set:hoe",
+    "category": "Moonveil Fairy Set",
+    "name": "Hoe",
+    "color": null,
+    "base": "minecraft:netherite_hoe",
+    "model": "moonveil_fairy_set:hoe",
+    "equip": null
+  },
+  {
+    "id": "moonveil_fairy_set:key",
+    "category": "Moonveil Fairy Set",
+    "name": "Key",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "moonveil_fairy_set:key",
+    "equip": null
+  },
+  {
+    "id": "moonveil_fairy_set:leggings",
+    "category": "Moonveil Fairy Set",
+    "name": "Leggings",
+    "color": null,
+    "base": "minecraft:netherite_leggings",
+    "model": "moonveil_fairy_set:leggings",
+    "equip": {
+      "slot": "legs",
+      "asset": "moonveil_fairy_set:moonveil_fairy_setarmor"
+    }
+  },
+  {
+    "id": "moonveil_fairy_set:pickaxe",
+    "category": "Moonveil Fairy Set",
+    "name": "Pickaxe",
+    "color": null,
+    "base": "minecraft:netherite_pickaxe",
+    "model": "moonveil_fairy_set:pickaxe",
+    "equip": null
+  },
+  {
+    "id": "moonveil_fairy_set:rapier_sword",
+    "category": "Moonveil Fairy Set",
+    "name": "Rapier Sword",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "moonveil_fairy_set:rapier_sword",
+    "equip": null
+  },
+  {
+    "id": "moonveil_fairy_set:scythe",
+    "category": "Moonveil Fairy Set",
+    "name": "Scythe",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "moonveil_fairy_set:scythe",
+    "equip": null
+  },
+  {
+    "id": "moonveil_fairy_set:shield",
+    "category": "Moonveil Fairy Set",
+    "name": "Shield",
+    "color": null,
+    "base": "minecraft:shield",
+    "model": "moonveil_fairy_set:shield",
+    "equip": null
+  },
+  {
+    "id": "moonveil_fairy_set:shovel",
+    "category": "Moonveil Fairy Set",
+    "name": "Shovel",
+    "color": null,
+    "base": "minecraft:netherite_shovel",
+    "model": "moonveil_fairy_set:shovel",
+    "equip": null
+  },
+  {
+    "id": "moonveil_fairy_set:spear",
+    "category": "Moonveil Fairy Set",
+    "name": "Spear",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "moonveil_fairy_set:spear",
+    "equip": null
+  },
+  {
+    "id": "moonveil_fairy_set:staff",
+    "category": "Moonveil Fairy Set",
+    "name": "Staff",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "moonveil_fairy_set:staff",
+    "equip": null
+  },
+  {
+    "id": "moonveil_fairy_set:sword",
+    "category": "Moonveil Fairy Set",
+    "name": "Sword",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "moonveil_fairy_set:sword",
+    "equip": null
+  },
+  {
+    "id": "moonveil_fairy_set:trident",
+    "category": "Moonveil Fairy Set",
+    "name": "Trident",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "moonveil_fairy_set:trident",
+    "equip": null
+  },
+  {
+    "id": "moonveil_fairy_set:wing",
+    "category": "Moonveil Fairy Set",
+    "name": "Wing",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "moonveil_fairy_set:wing",
+    "equip": null
+  },
+  {
+    "id": "moonveil_fairy_set:wing_1",
+    "category": "Moonveil Fairy Set",
+    "name": "Wing 1",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "moonveil_fairy_set:wing_1",
+    "equip": null
+  },
+  {
+    "id": "spirit_sakura:axe",
+    "category": "Spirit Sakura",
+    "name": "Axe",
+    "color": null,
+    "base": "minecraft:netherite_axe",
+    "model": "spirit_sakura:axe",
+    "equip": null
+  },
+  {
+    "id": "spirit_sakura:boots",
+    "category": "Spirit Sakura",
+    "name": "Boots",
+    "color": null,
+    "base": "minecraft:netherite_boots",
+    "model": "spirit_sakura:boots",
+    "equip": {
+      "slot": "feet",
+      "asset": "spirit_sakura:spirit_sakuraarmor"
+    }
+  },
+  {
+    "id": "spirit_sakura:bow",
+    "category": "Spirit Sakura",
+    "name": "Bow",
+    "color": null,
+    "base": "minecraft:bow",
+    "model": "spirit_sakura:bow",
+    "equip": null
+  },
+  {
+    "id": "spirit_sakura:chest",
+    "category": "Spirit Sakura",
+    "name": "Chest",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "spirit_sakura:chest",
+    "equip": null
+  },
+  {
+    "id": "spirit_sakura:chestplate",
+    "category": "Spirit Sakura",
+    "name": "Chestplate",
+    "color": null,
+    "base": "minecraft:netherite_chestplate",
+    "model": "spirit_sakura:chestplate",
+    "equip": {
+      "slot": "chest",
+      "asset": "spirit_sakura:spirit_sakuraarmor"
+    }
+  },
+  {
+    "id": "spirit_sakura:crossbow",
+    "category": "Spirit Sakura",
+    "name": "Crossbow",
+    "color": null,
+    "base": "minecraft:crossbow",
+    "model": "spirit_sakura:crossbow",
+    "equip": null
+  },
+  {
+    "id": "spirit_sakura:dagger",
+    "category": "Spirit Sakura",
+    "name": "Dagger",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "spirit_sakura:dagger",
+    "equip": null
+  },
+  {
+    "id": "spirit_sakura:fishing_rod",
+    "category": "Spirit Sakura",
+    "name": "Fishing Rod",
+    "color": null,
+    "base": "minecraft:fishing_rod",
+    "model": "spirit_sakura:fishing_rod",
+    "equip": null
+  },
+  {
+    "id": "spirit_sakura:hammer",
+    "category": "Spirit Sakura",
+    "name": "Hammer",
+    "color": null,
+    "base": "minecraft:mace",
+    "model": "spirit_sakura:hammer",
+    "equip": null
+  },
+  {
+    "id": "spirit_sakura:hat",
+    "category": "Spirit Sakura",
+    "name": "Hat",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "spirit_sakura:hat",
+    "equip": {
+      "slot": "head",
+      "asset": null
+    }
+  },
+  {
+    "id": "spirit_sakura:helmet",
+    "category": "Spirit Sakura",
+    "name": "Helmet",
+    "color": null,
+    "base": "minecraft:netherite_helmet",
+    "model": "spirit_sakura:helmet",
+    "equip": {
+      "slot": "head",
+      "asset": "spirit_sakura:spirit_sakuraarmor"
+    }
+  },
+  {
+    "id": "spirit_sakura:hoe",
+    "category": "Spirit Sakura",
+    "name": "Hoe",
+    "color": null,
+    "base": "minecraft:netherite_hoe",
+    "model": "spirit_sakura:hoe",
+    "equip": null
+  },
+  {
+    "id": "spirit_sakura:key",
+    "category": "Spirit Sakura",
+    "name": "Key",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "spirit_sakura:key",
+    "equip": null
+  },
+  {
+    "id": "spirit_sakura:leggings",
+    "category": "Spirit Sakura",
+    "name": "Leggings",
+    "color": null,
+    "base": "minecraft:netherite_leggings",
+    "model": "spirit_sakura:leggings",
+    "equip": {
+      "slot": "legs",
+      "asset": "spirit_sakura:spirit_sakuraarmor"
+    }
+  },
+  {
+    "id": "spirit_sakura:pickaxe",
+    "category": "Spirit Sakura",
+    "name": "Pickaxe",
+    "color": null,
+    "base": "minecraft:netherite_pickaxe",
+    "model": "spirit_sakura:pickaxe",
+    "equip": null
+  },
+  {
+    "id": "spirit_sakura:rapier_sword",
+    "category": "Spirit Sakura",
+    "name": "Rapier Sword",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "spirit_sakura:rapier_sword",
+    "equip": null
+  },
+  {
+    "id": "spirit_sakura:scythe",
+    "category": "Spirit Sakura",
+    "name": "Scythe",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "spirit_sakura:scythe",
+    "equip": null
+  },
+  {
+    "id": "spirit_sakura:shield",
+    "category": "Spirit Sakura",
+    "name": "Shield",
+    "color": null,
+    "base": "minecraft:shield",
+    "model": "spirit_sakura:shield",
+    "equip": null
+  },
+  {
+    "id": "spirit_sakura:shovel",
+    "category": "Spirit Sakura",
+    "name": "Shovel",
+    "color": null,
+    "base": "minecraft:netherite_shovel",
+    "model": "spirit_sakura:shovel",
+    "equip": null
+  },
+  {
+    "id": "spirit_sakura:spear",
+    "category": "Spirit Sakura",
+    "name": "Spear",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "spirit_sakura:spear",
+    "equip": null
+  },
+  {
+    "id": "spirit_sakura:staff",
+    "category": "Spirit Sakura",
+    "name": "Staff",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "spirit_sakura:staff",
+    "equip": null
+  },
+  {
+    "id": "spirit_sakura:sword",
+    "category": "Spirit Sakura",
+    "name": "Sword",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "spirit_sakura:sword",
+    "equip": null
+  },
+  {
+    "id": "spirit_sakura:trident",
+    "category": "Spirit Sakura",
+    "name": "Trident",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "spirit_sakura:trident",
+    "equip": null
+  },
+  {
+    "id": "spirit_sakura:wing",
+    "category": "Spirit Sakura",
+    "name": "Wing",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "spirit_sakura:wing",
+    "equip": null
+  },
+  {
+    "id": "spirit_sakura:wing_1",
+    "category": "Spirit Sakura",
+    "name": "Wing 1",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "spirit_sakura:wing_1",
+    "equip": null
+  },
+  {
+    "id": "elitecreatures:anime_cosmetic_v2-darkness_crown",
+    "category": "Anime V2",
+    "name": "Darkness Crown",
+    "color": 8851456,
+    "base": "minecraft:paper",
+    "model": "elitecreatures:anime_cosmetic_v2-darkness_crown",
+    "equip": null
+  },
+  {
+    "id": "elitecreatures:anime_cosmetic_v2-darkness_saber_backitem",
+    "category": "Anime V2",
+    "name": "Darkness Saber Backitem",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "elitecreatures:anime_cosmetic_v2-darkness_saber_backitem",
+    "equip": null
+  },
+  {
+    "id": "elitecreatures:anime_cosmetic_v2-jostar_hat",
+    "category": "Anime V2",
+    "name": "Jostar Hat",
+    "color": 16766021,
+    "base": "minecraft:paper",
+    "model": "elitecreatures:anime_cosmetic_v2-jostar_hat",
+    "equip": null
+  },
+  {
+    "id": "elitecreatures:anime_cosmetic_v2-star_stand_backpack",
+    "category": "Anime V2",
+    "name": "Jostar Stand",
+    "color": 16766021,
+    "base": "minecraft:paper",
+    "model": "elitecreatures:anime_cosmetic_v2-star_stand_backpack",
+    "equip": null
+  },
+  {
+    "id": "elitecreatures:anime_cosmetic_v2-quirk_mask",
+    "category": "Anime V2",
+    "name": "Quirk Mask",
+    "color": 6160331,
+    "base": "minecraft:paper",
+    "model": "elitecreatures:anime_cosmetic_v2-quirk_mask",
+    "equip": null
+  },
+  {
+    "id": "elitecreatures:anime_cosmetic_v2-quirk_backpack",
+    "category": "Anime V2",
+    "name": "Quirk Bag",
+    "color": 6160331,
+    "base": "minecraft:paper",
+    "model": "elitecreatures:anime_cosmetic_v2-quirk_backpack",
+    "equip": null
+  },
+  {
+    "id": "elitecreatures:anime_cosmetic_v2-darkness_book_balloon",
+    "category": "Anime V2",
+    "name": "Darkness Crown",
+    "color": 8851456,
+    "base": "minecraft:paper",
+    "model": "elitecreatures:anime_cosmetic_v2-darkness_book_balloon",
+    "equip": null
+  },
+  {
+    "id": "elitecreatures:anime_cosmetic_v2-mighty_medal_balloon",
+    "category": "Anime V2",
+    "name": "Mighty Medal",
+    "color": 16770588,
+    "base": "minecraft:paper",
+    "model": "elitecreatures:anime_cosmetic_v2-mighty_medal_balloon",
+    "equip": null
+  },
+  {
+    "id": "elitecreatures:anime_cosmetic_v2-menacing_balloon",
+    "category": "Anime V2",
+    "name": "Menacing Balloon",
+    "color": 9903359,
+    "base": "minecraft:paper",
+    "model": "elitecreatures:anime_cosmetic_v2-menacing_balloon",
+    "equip": null
+  },
+  {
+    "id": "elitecreatures:anime_cosmetics_v4-b_pochita",
+    "category": "Anime V4",
+    "name": "Pochita",
+    "color": 16753469,
+    "base": "minecraft:paper",
+    "model": "elitecreatures:anime_cosmetics_v4-b_pochita",
+    "equip": null
+  },
+  {
+    "id": "elitecreatures:anime_cosmetics_v4-b_skull_medal",
+    "category": "Anime V4",
+    "name": "Skull Medal",
+    "color": 16767549,
+    "base": "minecraft:paper",
+    "model": "elitecreatures:anime_cosmetics_v4-b_skull_medal",
+    "equip": null
+  },
+  {
+    "id": "elitecreatures:anime_cosmetics_v4-b_unchi",
+    "category": "Anime V4",
+    "name": "Unchi",
+    "color": 16740068,
+    "base": "minecraft:paper",
+    "model": "elitecreatures:anime_cosmetics_v4-b_unchi",
+    "equip": null
+  },
+  {
+    "id": "elitecreatures:anime_cosmetics_v4-h_arale_cap",
+    "category": "Anime V4",
+    "name": "Arale Cap",
+    "color": 16740068,
+    "base": "minecraft:paper",
+    "model": "elitecreatures:anime_cosmetics_v4-h_arale_cap",
+    "equip": null
+  },
+  {
+    "id": "elitecreatures:anime_cosmetics_v4-h_berserker_mask",
+    "category": "Anime V4",
+    "name": "Berserker Mask",
+    "color": 15937792,
+    "base": "minecraft:paper",
+    "model": "elitecreatures:anime_cosmetics_v4-h_berserker_mask",
+    "equip": null
+  },
+  {
+    "id": "elitecreatures:anime_cosmetics_v4-h_chainsaw_man",
+    "category": "Anime V4",
+    "name": "Denji'S Mask",
+    "color": 15937792,
+    "base": "minecraft:paper",
+    "model": "elitecreatures:anime_cosmetics_v4-h_chainsaw_man",
+    "equip": null
+  },
+  {
+    "id": "elitecreatures:anime_cosmetics_v4-p_arale",
+    "category": "Anime V4",
+    "name": "Arale'S Bag",
+    "color": 16744674,
+    "base": "minecraft:paper",
+    "model": "elitecreatures:anime_cosmetics_v4-p_arale",
+    "equip": null
+  },
+  {
+    "id": "elitecreatures:anime_cosmetics_v4-p_chainsaw_backpack",
+    "category": "Anime V4",
+    "name": "Chainsawman Bag",
+    "color": 15138816,
+    "base": "minecraft:paper",
+    "model": "elitecreatures:anime_cosmetics_v4-p_chainsaw_backpack",
+    "equip": null
+  },
+  {
+    "id": "elitecreatures:anime_cosmetics_v4-p_sword",
+    "category": "Anime V4",
+    "name": "Zangetsu",
+    "color": 15138816,
+    "base": "minecraft:netherite_sword",
+    "model": "elitecreatures:anime_cosmetics_v4-p_sword",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_packboots",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Boots",
+    "color": 16777215,
+    "base": "minecraft:netherite_boots",
+    "model": "crystalline_core_pack:crystalline_core_packboots",
+    "equip": {
+      "slot": "feet",
+      "asset": "crystalline_core_pack:crystalline_core_packarmor"
+    }
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_packchestplate",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Chestplate",
+    "color": 16777215,
+    "base": "minecraft:netherite_chestplate",
+    "model": "crystalline_core_pack:crystalline_core_packchestplate",
+    "equip": {
+      "slot": "chest",
+      "asset": "crystalline_core_pack:crystalline_core_packarmor"
+    }
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_packleggings",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Leggings",
+    "color": 16777215,
+    "base": "minecraft:netherite_leggings",
+    "model": "crystalline_core_pack:crystalline_core_packleggings",
+    "equip": {
+      "slot": "legs",
+      "asset": "crystalline_core_pack:crystalline_core_packarmor"
+    }
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_packhelmet",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Helmet",
+    "color": 16777215,
+    "base": "minecraft:netherite_helmet",
+    "model": "crystalline_core_pack:crystalline_core_packhelmet",
+    "equip": {
+      "slot": "head",
+      "asset": "crystalline_core_pack:crystalline_core_packarmor"
+    }
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_axe",
+    "category": "Crystalline Core Pack",
+    "name": ".GUNDAM AxE",
+    "color": 16777215,
+    "base": "minecraft:netherite_axe",
+    "model": "crystalline_core_pack:crystalline_core_pack_axe",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_bow",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Bow",
+    "color": 16777215,
+    "base": "minecraft:bow",
+    "model": "crystalline_core_pack:crystalline_core_pack_bow",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_chest",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Crates",
+    "color": 16777215,
+    "base": "minecraft:netherite_sword",
+    "model": "crystalline_core_pack:crystalline_core_pack_chest",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_crossbow",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Crossbow",
+    "color": 16777215,
+    "base": "minecraft:crossbow",
+    "model": "crystalline_core_pack:crystalline_core_pack_crossbow",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_dagger",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Dagger",
+    "color": 16777215,
+    "base": "minecraft:netherite_sword",
+    "model": "crystalline_core_pack:crystalline_core_pack_dagger",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_fishing_rod",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Fishing Rod",
+    "color": 16777215,
+    "base": "minecraft:fishing_rod",
+    "model": "crystalline_core_pack:crystalline_core_pack_fishing_rod",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_hammer",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Hammer",
+    "color": 16777215,
+    "base": "minecraft:mace",
+    "model": "crystalline_core_pack:crystalline_core_pack_hammer",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_hat",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Mask",
+    "color": 16777215,
+    "base": "minecraft:paper",
+    "model": "crystalline_core_pack:crystalline_core_pack_hat",
+    "equip": {
+      "slot": "head",
+      "asset": null
+    }
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_hoe",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Hoe",
+    "color": 16777215,
+    "base": "minecraft:netherite_hoe",
+    "model": "crystalline_core_pack:crystalline_core_pack_hoe",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_key",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Key",
+    "color": 16777215,
+    "base": "minecraft:paper",
+    "model": "crystalline_core_pack:crystalline_core_pack_key",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_pickaxe",
+    "category": "Crystalline Core Pack",
+    "name": ".GUNDAM PICKAxE",
+    "color": 16777215,
+    "base": "minecraft:netherite_pickaxe",
+    "model": "crystalline_core_pack:crystalline_core_pack_pickaxe",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_rapier_sword",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Rapier",
+    "color": 16777215,
+    "base": "minecraft:netherite_sword",
+    "model": "crystalline_core_pack:crystalline_core_pack_rapier_sword",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_scythe",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Scythe",
+    "color": 16777215,
+    "base": "minecraft:netherite_sword",
+    "model": "crystalline_core_pack:crystalline_core_pack_scythe",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_shield",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Shield",
+    "color": 16777215,
+    "base": "minecraft:shield",
+    "model": "crystalline_core_pack:crystalline_core_pack_shield",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_shovel",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Shovel",
+    "color": 16777215,
+    "base": "minecraft:netherite_shovel",
+    "model": "crystalline_core_pack:crystalline_core_pack_shovel",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_spear",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Spear",
+    "color": 16777215,
+    "base": "minecraft:netherite_sword",
+    "model": "crystalline_core_pack:crystalline_core_pack_spear",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_staff",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Staff",
+    "color": 16777215,
+    "base": "minecraft:netherite_sword",
+    "model": "crystalline_core_pack:crystalline_core_pack_staff",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_sword",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Lightsword",
+    "color": 16777215,
+    "base": "minecraft:netherite_sword",
+    "model": "crystalline_core_pack:crystalline_core_pack_sword",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_trident",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Trident",
+    "color": 16777215,
+    "base": "minecraft:netherite_sword",
+    "model": "crystalline_core_pack:crystalline_core_pack_trident",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_wing",
+    "category": "Crystalline Core Pack",
+    "name": ".Gundam Wings",
+    "color": 16777215,
+    "base": "minecraft:paper",
+    "model": "crystalline_core_pack:crystalline_core_pack_wing",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_bow_0",
+    "category": "Crystalline Core Pack",
+    "name": "Crystallinecorepack Bow0",
+    "color": null,
+    "base": "minecraft:bow",
+    "model": "crystalline_core_pack:crystalline_core_pack_bow_0",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_bow_1",
+    "category": "Crystalline Core Pack",
+    "name": "Crystallinecorepack Bow1",
+    "color": null,
+    "base": "minecraft:bow",
+    "model": "crystalline_core_pack:crystalline_core_pack_bow_1",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_bow_2",
+    "category": "Crystalline Core Pack",
+    "name": "Crystallinecorepack Bow2",
+    "color": null,
+    "base": "minecraft:bow",
+    "model": "crystalline_core_pack:crystalline_core_pack_bow_2",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_crossbow_0",
+    "category": "Crystalline Core Pack",
+    "name": "Crystallinecorepack Crossbow0",
+    "color": null,
+    "base": "minecraft:crossbow",
+    "model": "crystalline_core_pack:crystalline_core_pack_crossbow_0",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_crossbow_1",
+    "category": "Crystalline Core Pack",
+    "name": "Crystallinecorepack Crossbow1",
+    "color": null,
+    "base": "minecraft:crossbow",
+    "model": "crystalline_core_pack:crystalline_core_pack_crossbow_1",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_crossbow_2",
+    "category": "Crystalline Core Pack",
+    "name": "Crystallinecorepack Crossbow2",
+    "color": null,
+    "base": "minecraft:crossbow",
+    "model": "crystalline_core_pack:crystalline_core_pack_crossbow_2",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_crossbow_charged",
+    "category": "Crystalline Core Pack",
+    "name": "Crystallinecorepack Crossbowcharged",
+    "color": null,
+    "base": "minecraft:crossbow",
+    "model": "crystalline_core_pack:crystalline_core_pack_crossbow_charged",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_fishing_rod_cast",
+    "category": "Crystalline Core Pack",
+    "name": "Crystallinecorepack Fishingrodcast",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "crystalline_core_pack:crystalline_core_pack_fishing_rod_cast",
+    "equip": null
+  },
+  {
+    "id": "crystalline_core_pack:crystalline_core_pack_shield_blocking",
+    "category": "Crystalline Core Pack",
+    "name": "Crystallinecorepack Shieldblocking",
+    "color": null,
+    "base": "minecraft:shield",
+    "model": "crystalline_core_pack:crystalline_core_pack_shield_blocking",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_cosmetics_axolotl_tail",
+    "category": "Little Axolotl Set",
+    "name": "Little Axolotl Axolotl Tail Cosmetics",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_cosmetics_axolotl_tail",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_cosmetics_axolotl_tail_normal_2",
+    "category": "Little Axolotl Set",
+    "name": "Little Axolotl Axolotl Tail Cosmetics Normal 2",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_cosmetics_axolotl_tail_normal_2",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_cosmetics_axolotl_tail_self_2",
+    "category": "Little Axolotl Set",
+    "name": "Little Axolotl Axolotl Tail Cosmetics Self 2",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_cosmetics_axolotl_tail_self_2",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_cosmetics_helmet",
+    "category": "Little Axolotl Set",
+    "name": "Little Axolotl Helmet Cosmetics",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_cosmetics_helmet",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotlboots",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Boots",
+    "color": 14718463,
+    "base": "minecraft:netherite_boots",
+    "model": "plny_little_axolotl_set:plny_little_axolotlboots",
+    "equip": {
+      "slot": "feet",
+      "asset": "plny_little_axolotl_set:plny_little_axolotlarmor"
+    }
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotlchestplate",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Chestplate",
+    "color": 14718463,
+    "base": "minecraft:netherite_chestplate",
+    "model": "plny_little_axolotl_set:plny_little_axolotlchestplate",
+    "equip": {
+      "slot": "chest",
+      "asset": "plny_little_axolotl_set:plny_little_axolotlarmor"
+    }
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotlhelmet",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Helmet",
+    "color": 14718463,
+    "base": "minecraft:netherite_helmet",
+    "model": "plny_little_axolotl_set:plny_little_axolotlhelmet",
+    "equip": {
+      "slot": "head",
+      "asset": "plny_little_axolotl_set:plny_little_axolotlarmor"
+    }
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotlleggings",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Leggings",
+    "color": 14718463,
+    "base": "minecraft:netherite_leggings",
+    "model": "plny_little_axolotl_set:plny_little_axolotlleggings",
+    "equip": {
+      "slot": "legs",
+      "asset": "plny_little_axolotl_set:plny_little_axolotlarmor"
+    }
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_axe",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Axe",
+    "color": 14718463,
+    "base": "minecraft:netherite_axe",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_axe",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_axolotl_tail",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Tail",
+    "color": 14718463,
+    "base": "minecraft:paper",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_axolotl_tail",
+    "equip": {
+      "slot": "head",
+      "asset": null
+    }
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_bow",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Bow",
+    "color": 14718463,
+    "base": "minecraft:bow",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_bow",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_chest",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Crate",
+    "color": 14718463,
+    "base": "minecraft:paper",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_chest",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_crossbow",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Crossbow",
+    "color": 14718463,
+    "base": "minecraft:crossbow",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_crossbow",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_fishing_rod",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Fishing Rod",
+    "color": 14718463,
+    "base": "minecraft:fishing_rod",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_fishing_rod",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_hammer",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Hammer",
+    "color": 14718463,
+    "base": "minecraft:mace",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_hammer",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_helmet",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Hat",
+    "color": 14718463,
+    "base": "minecraft:paper",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_helmet",
+    "equip": {
+      "slot": "head",
+      "asset": null
+    }
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_hoe",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Hoe",
+    "color": 14718463,
+    "base": "minecraft:netherite_hoe",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_hoe",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_key",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Key",
+    "color": 14718463,
+    "base": "minecraft:paper",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_key",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_mace",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Mace",
+    "color": 14718463,
+    "base": "minecraft:mace",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_mace",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_pickaxe",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Pickaxe",
+    "color": 14718463,
+    "base": "minecraft:netherite_pickaxe",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_pickaxe",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_scythe",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Scythe",
+    "color": 14718463,
+    "base": "minecraft:netherite_sword",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_scythe",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_shield",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Shield",
+    "color": 14718463,
+    "base": "minecraft:shield",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_shield",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_shovel",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Shovel",
+    "color": 14718463,
+    "base": "minecraft:netherite_shovel",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_shovel",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_spear",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Spear",
+    "color": 14718463,
+    "base": "minecraft:netherite_sword",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_spear",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_staff",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Staff",
+    "color": 14718463,
+    "base": "minecraft:netherite_sword",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_staff",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_sword",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Holy Sword",
+    "color": 14718463,
+    "base": "minecraft:netherite_sword",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_sword",
+    "equip": null
+  },
+  {
+    "id": "plny_little_axolotl_set:plny_little_axolotl_trident",
+    "category": "Little Axolotl Set",
+    "name": "LilAxolotl Trident",
+    "color": 14718463,
+    "base": "minecraft:trident",
+    "model": "plny_little_axolotl_set:plny_little_axolotl_trident",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_cosmetics_helmet",
+    "category": "Little Unicorn Set",
+    "name": "Little Unicorn Helmet Cosmetics",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "little_unicorn_set:little_unicorn_cosmetics_helmet",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_cosmetics_wings",
+    "category": "Little Unicorn Set",
+    "name": "Little Unicorn Wings Cosmetics",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "little_unicorn_set:little_unicorn_cosmetics_wings",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_cosmetics_wings_self_2",
+    "category": "Little Unicorn Set",
+    "name": "Little Unicorn Wings Cosmetics Self 2",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "little_unicorn_set:little_unicorn_cosmetics_wings_self_2",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_cosmetics_wings_normal_2",
+    "category": "Little Unicorn Set",
+    "name": "Little Unicorn Wings Cosmetics Normal 2",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "little_unicorn_set:little_unicorn_cosmetics_wings_normal_2",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicornhelmet",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Helmet",
+    "color": 16238079,
+    "base": "minecraft:netherite_helmet",
+    "model": "little_unicorn_set:little_unicornhelmet",
+    "equip": {
+      "slot": "head",
+      "asset": "little_unicorn_set:little_unicornarmor"
+    }
+  },
+  {
+    "id": "little_unicorn_set:little_unicornchestplate",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Chestplate",
+    "color": 16238079,
+    "base": "minecraft:netherite_chestplate",
+    "model": "little_unicorn_set:little_unicornchestplate",
+    "equip": {
+      "slot": "chest",
+      "asset": "little_unicorn_set:little_unicornarmor"
+    }
+  },
+  {
+    "id": "little_unicorn_set:little_unicornleggings",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Leggings",
+    "color": 16238079,
+    "base": "minecraft:netherite_leggings",
+    "model": "little_unicorn_set:little_unicornleggings",
+    "equip": {
+      "slot": "legs",
+      "asset": "little_unicorn_set:little_unicornarmor"
+    }
+  },
+  {
+    "id": "little_unicorn_set:little_unicornboots",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Boots",
+    "color": 16238079,
+    "base": "minecraft:netherite_boots",
+    "model": "little_unicorn_set:little_unicornboots",
+    "equip": {
+      "slot": "feet",
+      "asset": "little_unicorn_set:little_unicornarmor"
+    }
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_axe",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Axe",
+    "color": 16238079,
+    "base": "minecraft:netherite_axe",
+    "model": "little_unicorn_set:little_unicorn_axe",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_bow",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Bow",
+    "color": 16238079,
+    "base": "minecraft:bow",
+    "model": "little_unicorn_set:little_unicorn_bow",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_chest",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Crate",
+    "color": 16238079,
+    "base": "minecraft:paper",
+    "model": "little_unicorn_set:little_unicorn_chest",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_crossbow",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Crossbow",
+    "color": 16238079,
+    "base": "minecraft:crossbow",
+    "model": "little_unicorn_set:little_unicorn_crossbow",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_fishing_rod",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Fishing Rod",
+    "color": 16238079,
+    "base": "minecraft:fishing_rod",
+    "model": "little_unicorn_set:little_unicorn_fishing_rod",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_hammer",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Hammer",
+    "color": 16238079,
+    "base": "minecraft:mace",
+    "model": "little_unicorn_set:little_unicorn_hammer",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_helmet",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Hat",
+    "color": 16238079,
+    "base": "minecraft:paper",
+    "model": "little_unicorn_set:little_unicorn_helmet",
+    "equip": {
+      "slot": "head",
+      "asset": null
+    }
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_hoe",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Hoe",
+    "color": 16238079,
+    "base": "minecraft:netherite_hoe",
+    "model": "little_unicorn_set:little_unicorn_hoe",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_key",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Key",
+    "color": 16238079,
+    "base": "minecraft:paper",
+    "model": "little_unicorn_set:little_unicorn_key",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_knife",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Knife",
+    "color": 16238079,
+    "base": "minecraft:netherite_sword",
+    "model": "little_unicorn_set:little_unicorn_knife",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_pickaxe",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Pickaxe",
+    "color": 16238079,
+    "base": "minecraft:netherite_pickaxe",
+    "model": "little_unicorn_set:little_unicorn_pickaxe",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_scythe",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Scythe",
+    "color": 16238079,
+    "base": "minecraft:netherite_sword",
+    "model": "little_unicorn_set:little_unicorn_scythe",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_shield",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Shield",
+    "color": 16238079,
+    "base": "minecraft:shield",
+    "model": "little_unicorn_set:little_unicorn_shield",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_shovel",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Shovel",
+    "color": 16238079,
+    "base": "minecraft:netherite_shovel",
+    "model": "little_unicorn_set:little_unicorn_shovel",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_spear",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Spear",
+    "color": 16238079,
+    "base": "minecraft:netherite_sword",
+    "model": "little_unicorn_set:little_unicorn_spear",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_staff",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Staff",
+    "color": 16238079,
+    "base": "minecraft:netherite_sword",
+    "model": "little_unicorn_set:little_unicorn_staff",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_sword",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Sword",
+    "color": 16238079,
+    "base": "minecraft:netherite_sword",
+    "model": "little_unicorn_set:little_unicorn_sword",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_trident",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Trident",
+    "color": 16238079,
+    "base": "minecraft:netherite_sword",
+    "model": "little_unicorn_set:little_unicorn_trident",
+    "equip": null
+  },
+  {
+    "id": "little_unicorn_set:little_unicorn_wings",
+    "category": "Little Unicorn Set",
+    "name": "Lil Unicorn Wings",
+    "color": 16238079,
+    "base": "minecraft:paper",
+    "model": "little_unicorn_set:little_unicorn_wings",
+    "equip": {
+      "slot": "head",
+      "asset": null
+    }
+  },
+  {
+    "id": "littlepandaset:littlepanda_axe",
+    "category": "Littlepandaset",
+    "name": "Little Panda Axe",
+    "color": 16053492,
+    "base": "minecraft:netherite_axe",
+    "model": "littlepandaset:littlepanda_axe",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_bow",
+    "category": "Littlepandaset",
+    "name": "Little Panda Bow",
+    "color": 16053492,
+    "base": "minecraft:bow",
+    "model": "littlepandaset:littlepanda_bow",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_chest",
+    "category": "Littlepandaset",
+    "name": "Little Panda Chest",
+    "color": 16053492,
+    "base": "minecraft:paper",
+    "model": "littlepandaset:littlepanda_chest",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_chest_opening",
+    "category": "Littlepandaset",
+    "name": "Little Panda Chest Opening",
+    "color": 16053492,
+    "base": "minecraft:paper",
+    "model": "littlepandaset:littlepanda_chest_opening",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_crossbow",
+    "category": "Littlepandaset",
+    "name": "Little Panda Crossbow",
+    "color": 16316664,
+    "base": "minecraft:crossbow",
+    "model": "littlepandaset:littlepanda_crossbow",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_fishing_rod",
+    "category": "Littlepandaset",
+    "name": "Little Panda Fishing Rod",
+    "color": 16053492,
+    "base": "minecraft:fishing_rod",
+    "model": "littlepandaset:littlepanda_fishing_rod",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_greatsword",
+    "category": "Littlepandaset",
+    "name": "Little Panda Greatsword",
+    "color": 16053492,
+    "base": "minecraft:netherite_sword",
+    "model": "littlepandaset:littlepanda_greatsword",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_hammer",
+    "category": "Littlepandaset",
+    "name": "Little Panda Hammer",
+    "color": 16053492,
+    "base": "minecraft:mace",
+    "model": "littlepandaset:littlepanda_hammer",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_hoe",
+    "category": "Littlepandaset",
+    "name": "Little Panda Hoe",
+    "color": 16053492,
+    "base": "minecraft:netherite_hoe",
+    "model": "littlepandaset:littlepanda_hoe",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_key",
+    "category": "Littlepandaset",
+    "name": "Little Panda Key",
+    "color": 16053492,
+    "base": "minecraft:paper",
+    "model": "littlepandaset:littlepanda_key",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_pickaxe",
+    "category": "Littlepandaset",
+    "name": "Little Panda Pickaxe",
+    "color": 16053492,
+    "base": "minecraft:netherite_pickaxe",
+    "model": "littlepandaset:littlepanda_pickaxe",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_scythe",
+    "category": "Littlepandaset",
+    "name": "Little Panda Scythe",
+    "color": 16053492,
+    "base": "minecraft:netherite_sword",
+    "model": "littlepandaset:littlepanda_scythe",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_shield",
+    "category": "Littlepandaset",
+    "name": "Little Panda Shield",
+    "color": 16053492,
+    "base": "minecraft:shield",
+    "model": "littlepandaset:littlepanda_shield",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_shovel",
+    "category": "Littlepandaset",
+    "name": "Little Panda Shovel",
+    "color": 16053492,
+    "base": "minecraft:netherite_shovel",
+    "model": "littlepandaset:littlepanda_shovel",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_spear",
+    "category": "Littlepandaset",
+    "name": "Little Panda Spear",
+    "color": 16053492,
+    "base": "minecraft:netherite_sword",
+    "model": "littlepandaset:littlepanda_spear",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_staff",
+    "category": "Littlepandaset",
+    "name": "Little Panda Staff",
+    "color": 16053492,
+    "base": "minecraft:netherite_sword",
+    "model": "littlepandaset:littlepanda_staff",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_sword",
+    "category": "Littlepandaset",
+    "name": "Little Panda Sword",
+    "color": 16053492,
+    "base": "minecraft:netherite_sword",
+    "model": "littlepandaset:littlepanda_sword",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_trident",
+    "category": "Littlepandaset",
+    "name": "Little Panda Trident",
+    "color": 16053492,
+    "base": "minecraft:netherite_sword",
+    "model": "littlepandaset:littlepanda_trident",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_backpack",
+    "category": "Littlepandaset",
+    "name": "Little Panda Backpack",
+    "color": 16053492,
+    "base": "minecraft:netherite_sword",
+    "model": "littlepandaset:littlepanda_backpack",
+    "equip": {
+      "slot": "head",
+      "asset": null
+    }
+  },
+  {
+    "id": "littlepandaset:littlepanda_bamboo_backpack",
+    "category": "Littlepandaset",
+    "name": "Little Panda Bamboo Backpack",
+    "color": 16053492,
+    "base": "minecraft:netherite_sword",
+    "model": "littlepandaset:littlepanda_bamboo_backpack",
+    "equip": {
+      "slot": "head",
+      "asset": null
+    }
+  },
+  {
+    "id": "littlepandaset:littlepanda_head",
+    "category": "Littlepandaset",
+    "name": "Little Panda Head",
+    "color": 16053492,
+    "base": "minecraft:paper",
+    "model": "littlepandaset:littlepanda_head",
+    "equip": {
+      "slot": "head",
+      "asset": null
+    }
+  },
+  {
+    "id": "littlepandaset:littlepanda_hood",
+    "category": "Littlepandaset",
+    "name": "Little Panda Hood",
+    "color": 16053492,
+    "base": "minecraft:paper",
+    "model": "littlepandaset:littlepanda_hood",
+    "equip": {
+      "slot": "head",
+      "asset": null
+    }
+  },
+  {
+    "id": "littlepandaset:littlepanda_cosmeticscore_backpack",
+    "category": "Littlepandaset",
+    "name": "Little Panda Backpack Cosmeticscore",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "littlepandaset:littlepanda_cosmeticscore_backpack",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_cosmeticscore_bamboo_backpack",
+    "category": "Littlepandaset",
+    "name": "Little Panda Bamboo Backpack Cosmeticscore",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "littlepandaset:littlepanda_cosmeticscore_bamboo_backpack",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_cosmeticscore_head",
+    "category": "Littlepandaset",
+    "name": "Little Panda Head Cosmeticscore",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "littlepandaset:littlepanda_cosmeticscore_head",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepanda_cosmeticscore_hood",
+    "category": "Littlepandaset",
+    "name": "Little Panda Hood Cosmeticscore",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "littlepandaset:littlepanda_cosmeticscore_hood",
+    "equip": null
+  },
+  {
+    "id": "littlepandaset:littlepandaboots",
+    "category": "Littlepandaset",
+    "name": "Little Panda Boots",
+    "color": 16053492,
+    "base": "minecraft:netherite_boots",
+    "model": "littlepandaset:littlepandaboots",
+    "equip": {
+      "slot": "feet",
+      "asset": "littlepandaset:littlepandaarmor"
+    }
+  },
+  {
+    "id": "littlepandaset:littlepandachestplate",
+    "category": "Littlepandaset",
+    "name": "Little Panda Chestplate",
+    "color": 16053492,
+    "base": "minecraft:netherite_chestplate",
+    "model": "littlepandaset:littlepandachestplate",
+    "equip": {
+      "slot": "chest",
+      "asset": "littlepandaset:littlepandaarmor"
+    }
+  },
+  {
+    "id": "littlepandaset:littlepandaleggings",
+    "category": "Littlepandaset",
+    "name": "Little Panda Leggings",
+    "color": 16053492,
+    "base": "minecraft:netherite_leggings",
+    "model": "littlepandaset:littlepandaleggings",
+    "equip": {
+      "slot": "legs",
+      "asset": "littlepandaset:littlepandaarmor"
+    }
+  },
+  {
+    "id": "littlepandaset:littlepandahelmet",
+    "category": "Littlepandaset",
+    "name": "Little Panda Helmet",
+    "color": 16053492,
+    "base": "minecraft:netherite_helmet",
+    "model": "littlepandaset:littlepandahelmet",
+    "equip": {
+      "slot": "head",
+      "asset": "littlepandaset:littlepandaarmor"
+    }
+  },
+  {
+    "id": "littlesharkset:littleshark_axe",
+    "category": "Littlesharkset",
+    "name": "Little Shark Axe",
+    "color": 5561076,
+    "base": "minecraft:netherite_axe",
+    "model": "littlesharkset:littleshark_axe",
+    "equip": null
+  },
+  {
+    "id": "littlesharkset:littleshark_bow",
+    "category": "Littlesharkset",
+    "name": "Little Shark Bow",
+    "color": 5561076,
+    "base": "minecraft:bow",
+    "model": "littlesharkset:littleshark_bow",
+    "equip": null
+  },
+  {
+    "id": "littlesharkset:littleshark_chest",
+    "category": "Littlesharkset",
+    "name": "Little Shark Chest",
+    "color": 5561076,
+    "base": "minecraft:paper",
+    "model": "littlesharkset:littleshark_chest",
+    "equip": null
+  },
+  {
+    "id": "littlesharkset:littleshark_chest_opening",
+    "category": "Littlesharkset",
+    "name": "Little Shark Chest Opening",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "littlesharkset:littleshark_chest_opening",
+    "equip": null
+  },
+  {
+    "id": "littlesharkset:littleshark_crossbow",
+    "category": "Littlesharkset",
+    "name": "Little Shark Crossbow",
+    "color": 5561076,
+    "base": "minecraft:crossbow",
+    "model": "littlesharkset:littleshark_crossbow",
+    "equip": null
+  },
+  {
+    "id": "littlesharkset:littleshark_flag",
+    "category": "Littlesharkset",
+    "name": "Little Shark Flag",
+    "color": 5561076,
+    "base": "minecraft:paper",
+    "model": "littlesharkset:littleshark_flag",
+    "equip": null
+  },
+  {
+    "id": "littlesharkset:littleshark_hammer",
+    "category": "Littlesharkset",
+    "name": "Little Shark Hammer",
+    "color": 5561076,
+    "base": "minecraft:mace",
+    "model": "littlesharkset:littleshark_hammer",
+    "equip": null
+  },
+  {
+    "id": "littlesharkset:littleshark_hoe",
+    "category": "Littlesharkset",
+    "name": "Little Shark Hoe",
+    "color": 5561076,
+    "base": "minecraft:netherite_hoe",
+    "model": "littlesharkset:littleshark_hoe",
+    "equip": null
+  },
+  {
+    "id": "littlesharkset:littleshark_key",
+    "category": "Littlesharkset",
+    "name": "Little Shark Key",
+    "color": 5561076,
+    "base": "minecraft:paper",
+    "model": "littlesharkset:littleshark_key",
+    "equip": null
+  },
+  {
+    "id": "littlesharkset:littleshark_pickaxe",
+    "category": "Littlesharkset",
+    "name": "Little Shark Pickaxe",
+    "color": 5561076,
+    "base": "minecraft:netherite_pickaxe",
+    "model": "littlesharkset:littleshark_pickaxe",
+    "equip": null
+  },
+  {
+    "id": "littlesharkset:littleshark_shield",
+    "category": "Littlesharkset",
+    "name": "Little Shark Shield",
+    "color": 5561076,
+    "base": "minecraft:shield",
+    "model": "littlesharkset:littleshark_shield",
+    "equip": null
+  },
+  {
+    "id": "littlesharkset:littleshark_shovel",
+    "category": "Littlesharkset",
+    "name": "Little Shark Shovel",
+    "color": 5561076,
+    "base": "minecraft:netherite_shovel",
+    "model": "littlesharkset:littleshark_shovel",
+    "equip": null
+  },
+  {
+    "id": "littlesharkset:littleshark_spear",
+    "category": "Littlesharkset",
+    "name": "Little Shark Spear",
+    "color": 5561076,
+    "base": "minecraft:netherite_sword",
+    "model": "littlesharkset:littleshark_spear",
+    "equip": null
+  },
+  {
+    "id": "littlesharkset:littleshark_trident",
+    "category": "Littlesharkset",
+    "name": "Little Shark Trident",
+    "color": 5561076,
+    "base": "minecraft:netherite_sword",
+    "model": "littlesharkset:littleshark_trident",
+    "equip": null
+  },
+  {
+    "id": "littlesharkset:littleshark_staff",
+    "category": "Littlesharkset",
+    "name": "Little Shark Staff",
+    "color": 5561076,
+    "base": "minecraft:netherite_sword",
+    "model": "littlesharkset:littleshark_staff",
+    "equip": null
+  },
+  {
+    "id": "littlesharkset:littleshark_sword",
+    "category": "Littlesharkset",
+    "name": "Little Shark Sword",
+    "color": 5561076,
+    "base": "minecraft:netherite_sword",
+    "model": "littlesharkset:littleshark_sword",
+    "equip": null
+  },
+  {
+    "id": "littlesharkset:littleshark_fishing_rod",
+    "category": "Littlesharkset",
+    "name": "Little Shark Fishing Rod",
+    "color": 5561076,
+    "base": "minecraft:fishing_rod",
+    "model": "littlesharkset:littleshark_fishing_rod",
+    "equip": null
+  },
+  {
+    "id": "littlesharkset:littleshark_backpack",
+    "category": "Littlesharkset",
+    "name": "Little Shark Backpack",
+    "color": 6348277,
+    "base": "minecraft:paper",
+    "model": "littlesharkset:littleshark_backpack",
+    "equip": null
+  },
+  {
+    "id": "littlesharkset:littleshark_backpack_2",
+    "category": "Littlesharkset",
+    "name": "Little Shark Backpack 2",
+    "color": 5561076,
+    "base": "minecraft:paper",
+    "model": "littlesharkset:littleshark_backpack_2",
+    "equip": null
+  },
+  {
+    "id": "littlesharkset:littleshark_tail",
+    "category": "Littlesharkset",
+    "name": "Little Shark Tail",
+    "color": 5561076,
+    "base": "minecraft:paper",
+    "model": "littlesharkset:littleshark_tail",
+    "equip": null
+  },
+  {
+    "id": "littlesharkset:littleshark_hat",
+    "category": "Littlesharkset",
+    "name": "Little Shark Head",
+    "color": 5561076,
+    "base": "minecraft:paper",
+    "model": "littlesharkset:littleshark_hat",
+    "equip": {
+      "slot": "head",
+      "asset": null
+    }
+  },
+  {
+    "id": "optimus_awakens:optimus_awakens_axe",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Axe",
+    "color": null,
+    "base": "minecraft:netherite_axe",
+    "model": "optimus_awakens:optimus_awakens_axe",
+    "equip": null
+  },
+  {
+    "id": "optimus_awakens:optimus_awakens_bow",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Bow",
+    "color": null,
+    "base": "minecraft:bow",
+    "model": "optimus_awakens:optimus_awakens_bow",
+    "equip": null
+  },
+  {
+    "id": "optimus_awakens:optimus_awakens_chest",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Chest",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "optimus_awakens:optimus_awakens_chest",
+    "equip": null
+  },
+  {
+    "id": "optimus_awakens:optimus_awakens_crossbow",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Crossbow",
+    "color": null,
+    "base": "minecraft:crossbow",
+    "model": "optimus_awakens:optimus_awakens_crossbow",
+    "equip": null
+  },
+  {
+    "id": "optimus_awakens:optimus_awakens_dagger",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Dagger",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "optimus_awakens:optimus_awakens_dagger",
+    "equip": null
+  },
+  {
+    "id": "optimus_awakens:optimus_awakens_fishing_rod",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Fishing Rod",
+    "color": null,
+    "base": "minecraft:fishing_rod",
+    "model": "optimus_awakens:optimus_awakens_fishing_rod",
+    "equip": null
+  },
+  {
+    "id": "optimus_awakens:optimus_awakens_hammer",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Hammer",
+    "color": null,
+    "base": "minecraft:mace",
+    "model": "optimus_awakens:optimus_awakens_hammer",
+    "equip": null
+  },
+  {
+    "id": "optimus_awakens:optimus_awakens_hat",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Hat",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "optimus_awakens:optimus_awakens_hat",
+    "equip": {
+      "slot": "head",
+      "asset": null
+    }
+  },
+  {
+    "id": "optimus_awakens:optimus_awakens_hoe",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Hoe",
+    "color": null,
+    "base": "minecraft:netherite_hoe",
+    "model": "optimus_awakens:optimus_awakens_hoe",
+    "equip": null
+  },
+  {
+    "id": "optimus_awakens:optimus_awakens_key",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Key",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "optimus_awakens:optimus_awakens_key",
+    "equip": null
+  },
+  {
+    "id": "optimus_awakens:optimus_awakens_pickaxe",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Pickaxe",
+    "color": null,
+    "base": "minecraft:netherite_pickaxe",
+    "model": "optimus_awakens:optimus_awakens_pickaxe",
+    "equip": null
+  },
+  {
+    "id": "optimus_awakens:optimus_awakens_rapier_sword",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Rapier Sword",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "optimus_awakens:optimus_awakens_rapier_sword",
+    "equip": null
+  },
+  {
+    "id": "optimus_awakens:optimus_awakens_scythe",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Scythe",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "optimus_awakens:optimus_awakens_scythe",
+    "equip": null
+  },
+  {
+    "id": "optimus_awakens:optimus_awakens_shield",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Shield",
+    "color": null,
+    "base": "minecraft:shield",
+    "model": "optimus_awakens:optimus_awakens_shield",
+    "equip": null
+  },
+  {
+    "id": "optimus_awakens:optimus_awakens_shovel",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Shovel",
+    "color": null,
+    "base": "minecraft:netherite_shovel",
+    "model": "optimus_awakens:optimus_awakens_shovel",
+    "equip": null
+  },
+  {
+    "id": "optimus_awakens:optimus_awakens_spear",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Spear",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "optimus_awakens:optimus_awakens_spear",
+    "equip": null
+  },
+  {
+    "id": "optimus_awakens:optimus_awakens_staff",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Staff",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "optimus_awakens:optimus_awakens_staff",
+    "equip": null
+  },
+  {
+    "id": "optimus_awakens:optimus_awakens_sword",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Sword",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "optimus_awakens:optimus_awakens_sword",
+    "equip": null
+  },
+  {
+    "id": "optimus_awakens:optimus_awakens_trident",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Trident",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "optimus_awakens:optimus_awakens_trident",
+    "equip": null
+  },
+  {
+    "id": "optimus_awakens:optimus_awakens_wing",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Wing",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "optimus_awakens:optimus_awakens_wing",
+    "equip": null
+  },
+  {
+    "id": "optimus_awakens:optimus_awakensboots",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Boots",
+    "color": null,
+    "base": "minecraft:netherite_boots",
+    "model": "optimus_awakens:optimus_awakensboots",
+    "equip": {
+      "slot": "feet",
+      "asset": "optimus_awakens:optimus_awakensarmor"
+    }
+  },
+  {
+    "id": "optimus_awakens:optimus_awakenschestplate",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Chestplate",
+    "color": null,
+    "base": "minecraft:netherite_chestplate",
+    "model": "optimus_awakens:optimus_awakenschestplate",
+    "equip": {
+      "slot": "chest",
+      "asset": "optimus_awakens:optimus_awakensarmor"
+    }
+  },
+  {
+    "id": "optimus_awakens:optimus_awakensleggings",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Leggings",
+    "color": null,
+    "base": "minecraft:netherite_leggings",
+    "model": "optimus_awakens:optimus_awakensleggings",
+    "equip": {
+      "slot": "legs",
+      "asset": "optimus_awakens:optimus_awakensarmor"
+    }
+  },
+  {
+    "id": "optimus_awakens:optimus_awakenshelmet",
+    "category": "Optimus Awakens",
+    "name": "Optimusawakens Helmet",
+    "color": null,
+    "base": "minecraft:netherite_helmet",
+    "model": "optimus_awakens:optimus_awakenshelmet",
+    "equip": {
+      "slot": "head",
+      "asset": "optimus_awakens:optimus_awakensarmor"
+    }
+  },
+  {
+    "id": "protocalset:protocalhat",
+    "category": "Protocalset",
+    "name": "Protocal Helmet",
+    "color": 11862016,
+    "base": "minecraft:netherite_helmet",
+    "model": "protocalset:protocalhat",
+    "equip": {
+      "slot": "head",
+      "asset": "protocalset:protocalarmor"
+    }
+  },
+  {
+    "id": "protocalset:protocalboots",
+    "category": "Protocalset",
+    "name": "Protocal Boots",
+    "color": 11862016,
+    "base": "minecraft:netherite_boots",
+    "model": "protocalset:protocalboots",
+    "equip": {
+      "slot": "feet",
+      "asset": "protocalset:protocalarmor"
+    }
+  },
+  {
+    "id": "protocalset:protocalchestplate",
+    "category": "Protocalset",
+    "name": "Protocal Chestplate",
+    "color": 11862016,
+    "base": "minecraft:netherite_chestplate",
+    "model": "protocalset:protocalchestplate",
+    "equip": {
+      "slot": "chest",
+      "asset": "protocalset:protocalarmor"
+    }
+  },
+  {
+    "id": "protocalset:protocalleggings",
+    "category": "Protocalset",
+    "name": "Protocal Leggings",
+    "color": 11862016,
+    "base": "minecraft:netherite_leggings",
+    "model": "protocalset:protocalleggings",
+    "equip": {
+      "slot": "legs",
+      "asset": "protocalset:protocalarmor"
+    }
+  },
+  {
+    "id": "protocalset:protocal_axe",
+    "category": "Protocalset",
+    "name": "Protocal Axe",
+    "color": 11862016,
+    "base": "minecraft:netherite_axe",
+    "model": "protocalset:protocal_axe",
+    "equip": null
+  },
+  {
+    "id": "protocalset:protocal_bow",
+    "category": "Protocalset",
+    "name": "Protocal Bow",
+    "color": 11862016,
+    "base": "minecraft:bow",
+    "model": "protocalset:protocal_bow",
+    "equip": null
+  },
+  {
+    "id": "protocalset:protocal_chest",
+    "category": "Protocalset",
+    "name": "Protocal Chest",
+    "color": 11862016,
+    "base": "minecraft:paper",
+    "model": "protocalset:protocal_chest",
+    "equip": null
+  },
+  {
+    "id": "protocalset:protocal_chest_opening",
+    "category": "Protocalset",
+    "name": "Protocal Chest Opening",
+    "color": 11862016,
+    "base": "minecraft:paper",
+    "model": "protocalset:protocal_chest_opening",
+    "equip": null
+  },
+  {
+    "id": "protocalset:protocal_crossbow",
+    "category": "Protocalset",
+    "name": "Protocal Crossbow",
+    "color": 11862016,
+    "base": "minecraft:crossbow",
+    "model": "protocalset:protocal_crossbow",
+    "equip": null
+  },
+  {
+    "id": "protocalset:protocal_fishing_rod",
+    "category": "Protocalset",
+    "name": "Protocal Fishing Rod",
+    "color": 11862016,
+    "base": "minecraft:fishing_rod",
+    "model": "protocalset:protocal_fishing_rod",
+    "equip": null
+  },
+  {
+    "id": "protocalset:protocal_greatsword",
+    "category": "Protocalset",
+    "name": "Protocal Greatsword",
+    "color": 11862016,
+    "base": "minecraft:netherite_sword",
+    "model": "protocalset:protocal_greatsword",
+    "equip": null
+  },
+  {
+    "id": "protocalset:protocal_hammer",
+    "category": "Protocalset",
+    "name": "Protocal Hammer",
+    "color": 11862016,
+    "base": "minecraft:mace",
+    "model": "protocalset:protocal_hammer",
+    "equip": null
+  },
+  {
+    "id": "protocalset:protocal_hoe",
+    "category": "Protocalset",
+    "name": "Protocal Hoe",
+    "color": 11862016,
+    "base": "minecraft:netherite_hoe",
+    "model": "protocalset:protocal_hoe",
+    "equip": null
+  },
+  {
+    "id": "protocalset:protocal_key",
+    "category": "Protocalset",
+    "name": "Protocal Key",
+    "color": 11862016,
+    "base": "minecraft:paper",
+    "model": "protocalset:protocal_key",
+    "equip": null
+  },
+  {
+    "id": "protocalset:protocal_pickaxe",
+    "category": "Protocalset",
+    "name": "Protocal Pickaxe",
+    "color": 11862016,
+    "base": "minecraft:netherite_pickaxe",
+    "model": "protocalset:protocal_pickaxe",
+    "equip": null
+  },
+  {
+    "id": "protocalset:protocal_scythe",
+    "category": "Protocalset",
+    "name": "Protocal Scythe",
+    "color": 11862016,
+    "base": "minecraft:netherite_sword",
+    "model": "protocalset:protocal_scythe",
+    "equip": null
+  },
+  {
+    "id": "protocalset:protocal_shield",
+    "category": "Protocalset",
+    "name": "Protocal Shield",
+    "color": 11862016,
+    "base": "minecraft:shield",
+    "model": "protocalset:protocal_shield",
+    "equip": null
+  },
+  {
+    "id": "protocalset:protocal_shovel",
+    "category": "Protocalset",
+    "name": "Protocal Shovel",
+    "color": 11862016,
+    "base": "minecraft:netherite_shovel",
+    "model": "protocalset:protocal_shovel",
+    "equip": null
+  },
+  {
+    "id": "protocalset:protocal_spear",
+    "category": "Protocalset",
+    "name": "Protocal Spear",
+    "color": 11862016,
+    "base": "minecraft:netherite_sword",
+    "model": "protocalset:protocal_spear",
+    "equip": null
+  },
+  {
+    "id": "protocalset:protocal_staff",
+    "category": "Protocalset",
+    "name": "Protocal Staff",
+    "color": 11862016,
+    "base": "minecraft:netherite_sword",
+    "model": "protocalset:protocal_staff",
+    "equip": null
+  },
+  {
+    "id": "protocalset:protocal_sword",
+    "category": "Protocalset",
+    "name": "Protocal Sword",
+    "color": 11862016,
+    "base": "minecraft:netherite_sword",
+    "model": "protocalset:protocal_sword",
+    "equip": null
+  },
+  {
+    "id": "protocalset:protocal_trident",
+    "category": "Protocalset",
+    "name": "Protocal Trident",
+    "color": 11862016,
+    "base": "minecraft:netherite_sword",
+    "model": "protocalset:protocal_trident",
+    "equip": null
+  },
+  {
+    "id": "protocalset:protocal_wings",
+    "category": "Protocalset",
+    "name": "Protocal Wings",
+    "color": 11862016,
+    "base": "minecraft:paper",
+    "model": "protocalset:protocal_wings",
+    "equip": {
+      "slot": "head",
+      "asset": null
+    }
+  },
+  {
+    "id": "protocalset:protocal_helmet",
+    "category": "Protocalset",
+    "name": "Protocal Helmet",
+    "color": 11862016,
+    "base": "minecraft:paper",
+    "model": "protocalset:protocal_helmet",
+    "equip": {
+      "slot": "head",
+      "asset": null
+    }
+  },
+  {
+    "id": "protocalset:protocal_cosmeticscore_wings",
+    "category": "Protocalset",
+    "name": "Protocal Wings Cosmeticscore",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "protocalset:protocal_cosmeticscore_wings",
+    "equip": null
+  },
+  {
+    "id": "protocalset:protocal_cosmeticscore_helmet",
+    "category": "Protocalset",
+    "name": "Protocal Helmet Cosmeticscore",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "protocalset:protocal_cosmeticscore_helmet",
+    "equip": null
+  },
+  {
+    "id": "shine_oni:shine_oni_cosmetics_wings",
+    "category": "Shine Oni",
+    "name": "Shine Oni Wings Cosmetics",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "shine_oni:shine_oni_cosmetics_wings",
+    "equip": null
+  },
+  {
+    "id": "shine_oni:shine_oni_cosmetics_wings_self_2",
+    "category": "Shine Oni",
+    "name": "Shine Oni Wings Cosmetics Self 2",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "shine_oni:shine_oni_cosmetics_wings_self_2",
+    "equip": null
+  },
+  {
+    "id": "shine_oni:shine_oni_cosmetics_wings_normal_2",
+    "category": "Shine Oni",
+    "name": "Shine Oni Wings Cosmetics Normal 2",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "shine_oni:shine_oni_cosmetics_wings_normal_2",
+    "equip": null
+  },
+  {
+    "id": "shine_oni:shine_onihelmet",
+    "category": "Shine Oni",
+    "name": "Kazuyoshi Helmet",
+    "color": 14811136,
+    "base": "minecraft:netherite_helmet",
+    "model": "shine_oni:shine_onihelmet",
+    "equip": {
+      "slot": "head",
+      "asset": "shine_oni:shine_oniarmor"
+    }
+  },
+  {
+    "id": "shine_oni:shine_onichestplate",
+    "category": "Shine Oni",
+    "name": "Kazuyoshi Chestplate",
+    "color": 14811136,
+    "base": "minecraft:netherite_chestplate",
+    "model": "shine_oni:shine_onichestplate",
+    "equip": {
+      "slot": "chest",
+      "asset": "shine_oni:shine_oniarmor"
+    }
+  },
+  {
+    "id": "shine_oni:shine_onileggings",
+    "category": "Shine Oni",
+    "name": "Kazuyoshi Leggings",
+    "color": 14811136,
+    "base": "minecraft:netherite_leggings",
+    "model": "shine_oni:shine_onileggings",
+    "equip": {
+      "slot": "legs",
+      "asset": "shine_oni:shine_oniarmor"
+    }
+  },
+  {
+    "id": "shine_oni:shine_oniboots",
+    "category": "Shine Oni",
+    "name": "Kazuyoshi Boots",
+    "color": 14811136,
+    "base": "minecraft:netherite_boots",
+    "model": "shine_oni:shine_oniboots",
+    "equip": {
+      "slot": "feet",
+      "asset": "shine_oni:shine_oniarmor"
+    }
+  },
+  {
+    "id": "shine_oni:shine_oni_axe",
+    "category": "Shine Oni",
+    "name": "KAZUYOSHI AxE",
+    "color": 16711680,
+    "base": "minecraft:netherite_axe",
+    "model": "shine_oni:shine_oni_axe",
+    "equip": null
+  },
+  {
+    "id": "shine_oni:shine_oni_battle_axe",
+    "category": "Shine Oni",
+    "name": "KAZUYOSHI BATTLE AxE",
+    "color": 16711680,
+    "base": "minecraft:netherite_axe",
+    "model": "shine_oni:shine_oni_battle_axe",
+    "equip": null
+  },
+  {
+    "id": "shine_oni:shine_oni_big_sword",
+    "category": "Shine Oni",
+    "name": "Kazuyoshi Meito Sword",
+    "color": 16711680,
+    "base": "minecraft:netherite_sword",
+    "model": "shine_oni:shine_oni_big_sword",
+    "equip": null
+  },
+  {
+    "id": "shine_oni:shine_oni_bow",
+    "category": "Shine Oni",
+    "name": "Kazuyoshi Bow",
+    "color": 16711680,
+    "base": "minecraft:bow",
+    "model": "shine_oni:shine_oni_bow",
+    "equip": null
+  },
+  {
+    "id": "shine_oni:shine_oni_key",
+    "category": "Shine Oni",
+    "name": "Kazuyoshi Key",
+    "color": 16711680,
+    "base": "minecraft:paper",
+    "model": "shine_oni:shine_oni_key",
+    "equip": null
+  },
+  {
+    "id": "shine_oni:shine_oni_chest",
+    "category": "Shine Oni",
+    "name": "Kazuyoshi Crates",
+    "color": 16711680,
+    "base": "minecraft:paper",
+    "model": "shine_oni:shine_oni_chest",
+    "equip": null
+  },
+  {
+    "id": "shine_oni:shine_oni_hoe",
+    "category": "Shine Oni",
+    "name": "Kazuyoshi Hoe",
+    "color": 16711680,
+    "base": "minecraft:netherite_hoe",
+    "model": "shine_oni:shine_oni_hoe",
+    "equip": null
+  },
+  {
+    "id": "shine_oni:shine_oni_pickaxe",
+    "category": "Shine Oni",
+    "name": "KAZUYOSHI PICKAxE",
+    "color": 16711680,
+    "base": "minecraft:netherite_pickaxe",
+    "model": "shine_oni:shine_oni_pickaxe",
+    "equip": null
+  },
+  {
+    "id": "shine_oni:shine_oni_shield",
+    "category": "Shine Oni",
+    "name": "Kazuyoshi Shield",
+    "color": 16711680,
+    "base": "minecraft:shield",
+    "model": "shine_oni:shine_oni_shield",
+    "equip": null
+  },
+  {
+    "id": "shine_oni:shine_oni_shovel",
+    "category": "Shine Oni",
+    "name": "Kazuyoshi Shovel",
+    "color": 16711680,
+    "base": "minecraft:netherite_shovel",
+    "model": "shine_oni:shine_oni_shovel",
+    "equip": null
+  },
+  {
+    "id": "shine_oni:shine_oni_sickle",
+    "category": "Shine Oni",
+    "name": "Kazuyoshi Scythe",
+    "color": 16711680,
+    "base": "minecraft:netherite_sword",
+    "model": "shine_oni:shine_oni_sickle",
+    "equip": null
+  },
+  {
+    "id": "shine_oni:shine_oni_spear",
+    "category": "Shine Oni",
+    "name": "Kazuyoshi Spear",
+    "color": 16711680,
+    "base": "minecraft:netherite_sword",
+    "model": "shine_oni:shine_oni_spear",
+    "equip": null
+  },
+  {
+    "id": "shine_oni:shine_oni_staff",
+    "category": "Shine Oni",
+    "name": "Kazuyoshi Staff",
+    "color": 16711680,
+    "base": "minecraft:netherite_sword",
+    "model": "shine_oni:shine_oni_staff",
+    "equip": null
+  },
+  {
+    "id": "shine_oni:shine_oni_wings",
+    "category": "Shine Oni",
+    "name": "Kazuyoshi Wings",
+    "color": 16711680,
+    "base": "minecraft:paper",
+    "model": "shine_oni:shine_oni_wings",
+    "equip": null
+  },
+  {
+    "id": "witch_pack:ethereal_witch_broom",
+    "category": "Witch Pack",
+    "name": "Ethereal Witch Broom",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "witch_pack:ethereal_witch_broom",
+    "equip": null
+  },
+  {
+    "id": "witch_pack:nocturne_witch_broom",
+    "category": "Witch Pack",
+    "name": "Nocturne Witch Broom",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "witch_pack:nocturne_witch_broom",
+    "equip": null
+  },
+  {
+    "id": "witch_pack:starry_witch_broom",
+    "category": "Witch Pack",
+    "name": "Starry Witch Broom",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "witch_pack:starry_witch_broom",
+    "equip": null
+  },
+  {
+    "id": "witch_pack:sweet_enchantress_broom",
+    "category": "Witch Pack",
+    "name": "Sweet Enchantress Broom",
+    "color": null,
+    "base": "minecraft:netherite_sword",
+    "model": "witch_pack:sweet_enchantress_broom",
+    "equip": null
+  },
+  {
+    "id": "witch_pack:ethereal_witch_hat",
+    "category": "Witch Pack",
+    "name": "Ethereal Witch Hat",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "witch_pack:ethereal_witch_hat",
+    "equip": null
+  },
+  {
+    "id": "witch_pack:nocturne_witch_hat",
+    "category": "Witch Pack",
+    "name": "Nocturne Witch Hat",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "witch_pack:nocturne_witch_hat",
+    "equip": null
+  },
+  {
+    "id": "witch_pack:starry_witch_hat",
+    "category": "Witch Pack",
+    "name": "Starry Witch Hat",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "witch_pack:starry_witch_hat",
+    "equip": null
+  },
+  {
+    "id": "witch_pack:sweet_enchantress_hat",
+    "category": "Witch Pack",
+    "name": "Sweet Enchantress Hat",
+    "color": null,
+    "base": "minecraft:paper",
+    "model": "witch_pack:sweet_enchantress_hat",
+    "equip": null
+  }
+]
