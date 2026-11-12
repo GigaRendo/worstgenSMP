@@ -87,7 +87,7 @@ public class ItemsMenu extends ChestMenu {
 	}
 
 	private void bottomRow(boolean back, boolean prev, boolean next) {
-		for (int i = PAGE; i < SIZE; i++) box.setItem(i, named(Items.GRAY_STAINED_GLASS_PANE, " ", 0x555555));
+		for (int i = PAGE; i < SIZE; i++) box.setItem(i, named(Items.GLASS_PANE, " ", 0x555555));
 		if (back) box.setItem(45, named(Items.BOOK, "Categories", 0xFFFF55));
 		if (prev) box.setItem(48, named(Items.ARROW, "Previous page", 0x55FF55));
 		if (next) box.setItem(50, named(Items.ARROW, "Next page", 0x55FF55));
