@@ -12,6 +12,9 @@ public class WorstGenItems implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ItemCatalog.load();
-		CommandRegistrationCallback.EVENT.register((dispatcher, buildContext, selection) -> ItemsCommand.register(dispatcher));
+		CommandRegistrationCallback.EVENT.register((dispatcher, buildContext, selection) -> {
+			ItemsCommand.register(dispatcher);
+			HatCommand.register(dispatcher);
+		});
 	}
 }
