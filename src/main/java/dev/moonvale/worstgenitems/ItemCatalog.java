@@ -95,6 +95,9 @@ public final class ItemCatalog {
 		return (o.has(key) && !o.get(key).isJsonNull()) ? o.get(key).getAsString() : null;
 	}
 
-	public static synchronized List<Entry> all() { return all; }
+		public static synchronized Entry findByModel(String model) {
+		for (Entry e : all) if (e.model().equals(model)) return e;
+		return null;
+	}
 	public static synchronized Map<String, List<Entry>> byCategory() { return byCategory; }
 }
