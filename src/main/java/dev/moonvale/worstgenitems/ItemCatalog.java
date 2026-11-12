@@ -49,7 +49,7 @@ public final class ItemCatalog {
 				var builder = Equippable.builder(slot);
 				if (equipAsset != null) {
 					ResourceKey rawKey = ResourceKey.create(ResourceKey.createRegistryKey(Identifier.withDefaultNamespace("equipment_asset")), Identifier.parse(equipAsset));
-                    builder = builder.setAsset(rawKey);
+					builder = builder.setAsset(rawKey);
 				}
 				stack.set(DataComponents.EQUIPPABLE, builder.build());
 			}
@@ -95,9 +95,16 @@ public final class ItemCatalog {
 		return (o.has(key) && !o.get(key).isJsonNull()) ? o.get(key).getAsString() : null;
 	}
 
-		public static synchronized Entry findByModel(String model) {
+	public static synchronized Entry findByModel(String model) {
 		for (Entry e : all) if (e.model().equals(model)) return e;
 		return null;
 	}
-	public static synchronized Map<String, List<Entry>> byCategory() { return byCategory; }
+
+	public static synchronized List<Entry> all() {
+		return all;
+	}
+
+	public static synchronized Map<String, List<Entry>> byCategory() { 
+		return byCategory; 
+	}
 }
