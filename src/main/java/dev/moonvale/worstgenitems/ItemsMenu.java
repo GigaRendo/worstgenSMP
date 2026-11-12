@@ -16,6 +16,7 @@ import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.util.Prediction;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -105,7 +106,7 @@ public class ItemsMenu extends ChestMenu {
 				int idx = page * PAGE + slot;
 				if (idx < shown.size()) {
 					ItemStack stack = shown.get(idx).toStack();
-					if (!player.getInventory().add(stack)) player.drop(stack, false);
+					player.getInventory().placeItemBackInInventory(stack, Prediction.SERVER_ONLY);
 				}
 			}
 			return;
