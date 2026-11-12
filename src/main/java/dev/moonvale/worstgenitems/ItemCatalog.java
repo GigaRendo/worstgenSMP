@@ -48,7 +48,8 @@ public final class ItemCatalog {
 			if (slot != null) {
 				var builder = Equippable.builder(slot);
 				if (equipAsset != null) {
-					builder = builder.setAsset(ResourceKey.create(EquipmentAssets.ROOT_ID, Identifier.parse(equipAsset)));
+					ResourceKey rawKey = ResourceKey.create(ResourceKey.createRegistryKey(Identifier.withDefaultNamespace("equipment_asset")), Identifier.parse(equipAsset));
+                    builder = builder.setAsset(rawKey);
 				}
 				stack.set(DataComponents.EQUIPPABLE, builder.build());
 			}
