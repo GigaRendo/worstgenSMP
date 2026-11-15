@@ -2,7 +2,7 @@ package dev.moonvale.worstgenitems;
 
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
-import me.lucko.fabric.api.permissions.v0.Permissions;
+import net.minecraft.server.permissions.Permissions;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
 import net.minecraft.core.component.DataComponents;
@@ -126,36 +126,24 @@ public final class CosmeticCommand {
 		ItemCatalog.Entry cosmetic = handModel == null ? null : ItemCatalog.findByModel(handModel.toString());
 
 		// Catalog cosmetic over real armor: purely visual
-		if (cosmetic != null) {
-			if (!fitsSlot(hand, slot)) {
-				say(src, "That cosmetic doesn't go in the " + slot.id + " slot.");
-				return 0;
-			}
-			if (!isSkinned(worn) && !isRealArmor(worn, slot)) {
-				say(src, "Wear a real " + slot.id + " first, then apply the cosmetic on top.");
-				return 0;
-			}
-			hand.shrink(1);
-			if (isSkinned(worn)) restoreSkin(p, worn, slot);
-			applySkin(p, p.getItemBySlot(slot.eq), slot, cosmetic);
-			say(src, "Cosmetic applied. Your " + slot.id + " keeps its stats and enchantments.");
-			return 1;
-		}
-
-		// Plain item as a hat (helmet only, like Essentials /hat)
-		if (slot == Slot.HELMET) {
-			ItemStack one = hand.copyWithCount(1);
-			hand.shrink(1);
-			ItemStack old = worn.copy();
-			p.setItemSlot(EquipmentSlot.HEAD, one);
-			if (!old.isEmpty()) give(p, old);
-			say(src, "Hat equipped.");
-			return 1;
-		}
-
-		say(src, "Only cosmetic armor can be used on the " + slot.id + " slot.");
+if (cosmetic != null) {
+	if (!fitsSlot(hand, slot)) {
+		say(src, "That cosmetic doesn't go in the " + slot.id + " slot.");
 		return 0;
 	}
+	if (isSkinned(worn) || isRealArmor(worn, slot)) {
+		hand.shrink(1);
+		if (isSkinned(worn)) restoreSkin(p, worn, slot);
+		applySkin(p, p.getItemBySlot(slot.eq), slot, cosmetic);
+		say(src, "Cosmetic applied. Your " + slot.id + " keeps its stats and enchantments.");
+		return 1;
+	}
+	if (slot != Slot.HELMET) {
+		say(src, "Wear a real " + slot.id + " first, then apply the cosmetic on top.");
+		return 0;
+	}
+	// helmet slot with no real armor: fall through and wear it as a hat
+}
 
 	// ---------- remove ----------
 
