@@ -8,13 +8,13 @@ import org.slf4j.LoggerFactory;
 public class WorstGenItems implements ModInitializer {
 	public static final String MOD_ID = "worstgen_items";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-
-	@Override
-	public void onInitialize() {
-		ItemCatalog.load();
-		CommandRegistrationCallback.EVENT.register((dispatcher, buildContext, selection) -> {
-			ItemsCommand.register(dispatcher);
-			HatCommand.register(dispatcher);
-		});
-	}
+    @Override
+    public void onInitialize() {
+	    ItemCatalog.load();
+	    WgConfig.load();
+	    CommandRegistrationCallback.EVENT.register((dispatcher, buildContext, selection) -> {
+		    ItemsCommand.register(dispatcher);
+		    WgCommand.register(dispatcher); // replaces HatCommand.register(dispatcher)
+	});
+   }
 }
