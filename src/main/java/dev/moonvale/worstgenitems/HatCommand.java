@@ -131,5 +131,13 @@ public final class HatCommand {
 		p.setItemSlot(EquipmentSlot.HEAD, ns);
 		ItemCatalog.Entry e = ItemCatalog.findByModel(model);
 		if (e != null) give(p, e.toStack());
+
+public final class WgCommand {
+	private WgCommand() {}
+
+	public static void register(CommandDispatcher<CommandSourceStack> d) {
+		d.register(Commands.literal("wg")
+			.then(CosmeticCommand.node()));
+		CosmeticCommand.registerHatAlias(d);
 	}
 }
