@@ -117,34 +117,48 @@ public final class CosmeticCommand {
 
 	// ---------- equip ----------
 
-	private static int equip(CommandSourceStack src, ServerPlayer p, Slot slot) {
-		ItemStack hand = p.getMainHandItem();
-		if (hand.isEmpty()) return remove(src, p, slot);
+private static int equip(CommandSourceStack src, ServerPlayer p, Slot slot) {
+	ItemStack hand = p.getMainHandItem();
+	if (hand.isEmpty()) return remove(src, p, slot);
 
-		ItemStack worn = p.getItemBySlot(slot.eq);
-		Identifier handModel = hand.get(DataComponents.ITEM_MODEL);
-		ItemCatalog.Entry cosmetic = handModel == null ? null : ItemCatalog.findByModel(handModel.toString());
+	ItemStack worn = p.getItemBySlot(slot.eq);
+	Identifier handModel = hand.get(DataComponents.ITEM_MODEL);
+	ItemCatalog.Entry cosmetic = handModel == null ? null : ItemCatalog.findByModel(handModel.toString());
 
-		// Catalog cosmetic over real armor: purely visual
-if (cosmetic != null) {
-	if (!fitsSlot(hand, slot)) {
-		say(src, "That cosmetic doesn't go in the " + slot.id + " slot.");
-		return 0;
+	// Catalog cosmetic over real armor: purely visual
+	if (cosmetic != null) {
+		if (!fitsSlot(hand, slot)) {
+			say(src, "That cosmetic doesn't go in the " + slot.id + " slot.");
+			return 0;
+		}
+		if (isSkinned(worn) || isRealArmor(worn, slot)) {
+			hand.shrink(1);
+			if (isSkinned(worn)) restoreSkin(p, worn, slot);
+			applySkin(p, p.getItemBySlot(slot.eq), slot, cosmetic);
+			say(src, "Cosmetic applied. Your " + slot.id + " keeps its stats and enchantments.");
+			return 1;
+		}
+		if (slot != Slot.HELMET) {
+			say(src, "Wear a real " + slot.id + " first, then apply the cosmetic on top.");
+			return 0;
+		}
+		// helmet slot with no real armor: falls through and wears it as a hat
 	}
-	if (isSkinned(worn) || isRealArmor(worn, slot)) {
+
+	// Plain item as a hat (helmet only, like Essentials /hat)
+	if (slot == Slot.HELMET) {
+		ItemStack one = hand.copyWithCount(1);
 		hand.shrink(1);
-		if (isSkinned(worn)) restoreSkin(p, worn, slot);
-		applySkin(p, p.getItemBySlot(slot.eq), slot, cosmetic);
-		say(src, "Cosmetic applied. Your " + slot.id + " keeps its stats and enchantments.");
+		ItemStack old = worn.copy();
+		p.setItemSlot(EquipmentSlot.HEAD, one);
+		if (!old.isEmpty()) give(p, old);
+		say(src, "Hat equipped.");
 		return 1;
 	}
-	if (slot != Slot.HELMET) {
-		say(src, "Wear a real " + slot.id + " first, then apply the cosmetic on top.");
-		return 0;
-	}
-	// helmet slot with no real armor: fall through and wear it as a hat
-}
 
+	say(src, "Only cosmetic armor can be used on the " + slot.id + " slot.");
+	return 0;
+}
 	// ---------- remove ----------
 
 	private static int remove(CommandSourceStack src, ServerPlayer p, Slot slot) {
