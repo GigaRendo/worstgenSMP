@@ -62,10 +62,10 @@ public final class CosmeticCommand {
 				.executes(ctx -> remove(ctx.getSource(), ctx.getSource().getPlayerOrException(), Slot.HELMET))));
 	}
 
-	private static boolean canUse(CommandSourceStack src, Slot s) {
-		if (!WgConfig.requirePermission) return true;
-		return Permissions.check(src, "wg.cosmetic." + s.id, 2);
-	}
+    private static boolean canUse(CommandSourceStack src, Slot s) {
+	    if (!WgConfig.requirePermission) return true;
+	    return src.permissions().hasPermission(Permissions.COMMANDS_GAMEMASTER);
+    }
 
 	// ---------- helpers ----------
 
